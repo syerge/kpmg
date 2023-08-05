@@ -14,7 +14,7 @@
         if ($currentData.ContainsKey($key)) {
             $currentData = $currentData[$key]
         } else {
-            return $null  # Key not found
+            return $null
         }
     }
 
